@@ -1,7 +1,12 @@
+import { colors } from "@semantic-conventional/demo-lib";
+import { createSignal, For } from 'solid-js';
+
 function App() {
   return (
     <div>
-      TODO
+      <ul>
+        <For each={colors}>{color => <li>{color.name}</li>}</For>
+      </ul>
     </div>
   );
 }
