@@ -1,0 +1,21 @@
+{
+  "name": "@semantic-conventional/demo-app",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A demo application that uses conventional commits & semantic release",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "author": "Erik Hofer",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.10"
+  }
+}
