@@ -1,6 +1,24 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
+  "extends": ["config:base", ":semanticCommitTypeAll(chore)"],
+  "stabilityDays": 7,
+  "prCreation": "not-pending",
+  "dependencyDashboard": true,
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "excludePackagePatterns": ["^@semantic-conventional/"],
+      "updateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "packagePatterns": ["^@semantic-conventional/"],
+      "stabilityDays": 0
+    },
+    {
+      "packagePatterns": ["^@semantic-conventional/"],
+      "updateTypes": ["patch"],
+      "automerge": true
+    }
   ]
 }
