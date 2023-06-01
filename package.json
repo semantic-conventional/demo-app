@@ -20,7 +20,7 @@
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
-    "@semantic-conventional/demo-lib": "^1.0.0",
+    "@semantic-conventional/demo-lib": "^2.0.0",
     "solid-js": "^1.6.10"
   }
 }
