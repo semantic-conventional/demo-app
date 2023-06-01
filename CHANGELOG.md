@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/semantic-conventional/demo-app/compare/v1.1.2...v1.2.0) (2023-06-01)
+
+
+### Features
+
+* improve documentation ([0063d6f](https://github.com/semantic-conventional/demo-app/commit/0063d6fc4203b1c2c6c1c445537e974f7fea04d9))
+
 ## [1.1.2](https://github.com/semantic-conventional/demo-app/compare/v1.1.1...v1.1.2) (2023-06-01)
 
 
