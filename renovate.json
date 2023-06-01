@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":semanticCommitTypeAll(chore)"],
   "stabilityDays": 7,
-  "prCreation": "not-pending",
+  "prCreation": "immediate",
   "dependencyDashboard": true,
   "labels": ["dependencies"],
   "packageRules": [
