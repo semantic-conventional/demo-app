@@ -8,17 +8,17 @@
   "packageRules": [
     {
       "excludePackagePatterns": ["^@semantic-conventional/"],
-      "updateTypes": ["minor", "patch"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     },
     {
-      "packagePatterns": ["^@semantic-conventional/"],
+      "matchPackagePatterns": ["^@semantic-conventional/"],
       "stabilityDays": 0
     },
     {
-      "packagePatterns": ["^@semantic-conventional/"],
-      "updateTypes": ["patch"],
-      "extends": [":semanticCommitTypeAll(fix)"],
+      "matchPackagePatterns": ["^@semantic-conventional/"],
+      "matchUpdateTypes": ["patch"],
+      "semanticCommitType": "fix",
       "automerge": true
     }
   ]
