@@ -19,6 +19,12 @@ function App() {
             </div>
           }</For>
       </div>
+      <div class={styles.card}>
+        <div class={styles.footer}>
+          Version {__APP_VERSION__} &bull; 
+          <a href="https://github.com/semantic-conventional/demo-app" target="_blank">GitHub</a>
+        </div>
+      </div>
     </div>
   );
 }
