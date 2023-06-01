@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/semantic-conventional/demo-app/compare/v1.1.1...v1.1.2) (2023-06-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-conventional/demo-lib to v2.0.1 ([71d9b6c](https://github.com/semantic-conventional/demo-app/commit/71d9b6cc69fb83192a456d580f05fbad1226f37a))
+
 ## [1.1.1](https://github.com/semantic-conventional/demo-app/compare/v1.1.0...v1.1.1) (2023-06-01)
 
 
