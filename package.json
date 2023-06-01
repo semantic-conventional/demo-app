@@ -1,7 +1,7 @@
 {
   "name": "@semantic-conventional/demo-app",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A demo application that uses conventional commits & semantic release",
   "scripts": {
     "start": "vite",
