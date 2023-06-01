@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/semantic-conventional/demo-app/compare/v1.1.0...v1.1.1) (2023-06-01)
+
+
+### Bug Fixes
+
+* remove ugly colors ([e030b71](https://github.com/semantic-conventional/demo-app/commit/e030b718b5f82e2a3375bd43c53343154129bd34))
+
 # [1.1.0](https://github.com/semantic-conventional/demo-app/compare/v1.0.0...v1.1.0) (2023-06-01)
 
 
