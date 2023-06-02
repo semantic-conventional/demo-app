@@ -7,8 +7,6 @@ function App() {
 
   const selectedColorCode = () => colors[selectedColorIndex()].code
 
-  const isActive = (index) => index === selectedColorIndex()
-
   return (
     <div class={styles.container} style={{ "background-color": selectedColorCode() }}>
       <div class={styles.card}>
