@@ -16,7 +16,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "semantic-release": "21.0.7",
-    "vite": "4.4.1",
+    "vite": "4.4.2",
     "vite-plugin-solid": "2.7.0"
   },
   "dependencies": {
